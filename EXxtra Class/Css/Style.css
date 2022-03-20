@@ -1,0 +1,62 @@
+/* Common Css Start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1140px;
+    margin: auto; 
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* //Common Css End */
+
+#header{
+    background-color: white;
+}
+.logo{
+    width: 50%;
+}
+.contact{
+    width: 15%;
+    padding-left: 120px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+p{
+    padding-top: 30px;
+    padding-left: 10px;
+}
+.email{
+    width: 15%;
+    padding-left: 170px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+nav{
+    background-color: #ddd;
+}
+ul{
+    list-style-type: none;
+}
+ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    font-family: sans-serif;
+    padding: 15px 25px;
+    display: inline-block;
+    transition: all 0.5s linear;
+}
+ul li a:hover{
+    background-color: red;
+    color:aqua;
+}
+section{
+    margin: 0 auto;
+}
